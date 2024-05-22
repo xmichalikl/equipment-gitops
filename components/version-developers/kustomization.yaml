@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+images:
+- name: xmichalikl/equipment-ufe
+  newName: xmichalikl/equipment-ufe # {"$imagepolicy":  "wac-hospital:equipment-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:equipment-ufe:tag"}
+
+- name: milung/ufe-controller
+  newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
+  newTag: latest # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
