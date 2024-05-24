@@ -8,4 +8,4 @@ spec:
  ref:
      branch: main
  timeout: 1m0s
- url: https://github.com/<your-account>/ambulance-gitops
+ url: https://github.com/xmichalikl/equipment-gitops
