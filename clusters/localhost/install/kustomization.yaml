@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/xmichalikl-equipment-ufe
 - ../../../apps/xmichalikl-equipment-webapi
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers
