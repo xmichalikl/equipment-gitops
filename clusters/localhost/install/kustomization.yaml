@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/xmichalikl-equipment-ufe
+- ../../../apps/xmichalikl-equipment-webapi
 
 components:
 - ../../../components/version-developers
+- https://github.com/xmichalikl/equipment-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/equipment-webapi.service.yaml

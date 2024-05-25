@@ -10,7 +10,7 @@ spec:
     - element: xmichalikl-equipment-app    # element, ktorý bude vložený na stránku
       attributes:
       - name: api-base
-        value: http://localhost:5000/api
+        value: http://localhost:30081/api
                                    
       path: xmichalikl-equipment-app      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Evidencia vybavenia nemocnice a ambulancií (xmichalikl)      # názov mikro aplikácie
