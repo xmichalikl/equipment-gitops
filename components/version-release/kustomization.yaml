@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: xmichalikl/equipment-ufe
   newName: xmichalikl/equipment-ufe
-  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: xmichalikl/equipment-webapi
   newName: xmichalikl/equipment-webapi
-  newTag: 1.1.0 
+  newTag: 1.1.1 
 replacements:
  - targets:
    - select:
